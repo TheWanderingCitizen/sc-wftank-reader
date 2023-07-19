@@ -1,0 +1,6 @@
+stanton_4_shubin_001=@Stanton4_Shubin_004
+stanton_4_shubin_004=@Stanton4_Shubin_001
+Klescher_Aberdeen_Commissary=@Stanton1b_Aberdeen_Prison-@Commissary_Attract
+Centermass=@ui_interactor_ST3_ION_Centermass
+CryAstro_Crusader_01=@mobiGlas_ui_CryAstroTitle
+CousinCrows_Orison=乌鸦表哥%%Cousin Crows
