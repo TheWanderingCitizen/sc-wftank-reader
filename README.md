@@ -20,3 +20,7 @@
 
 - 其他配置文件干啥用的看源码或等我后续补上说明
 
+## 代码结构概述
+总的来说就是用各种[reader](src%2Fmain%2Fjava%2Ftools%2Fstarcitizen%2Freader)读取各个目录下的xml、通过对应的converter[converter](src%2Fmain%2Fjava%2Ftools%2Fstarcitizen%2Fconverter)来转换原始数据对象，[processor](src%2Fmain%2Fjava%2Ftools%2Fstarcitizen%2Fprocessor)processor用于将转换后的对象处理成任何形式的输出。
+[context](src%2Fmain%2Fjava%2Ftools%2Fstarcitizen%2Fcontext)目录中是各种Map用来在处理数据的过程中进行本地化（global.ini）、地理位置等匹配
+
