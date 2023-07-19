@@ -1,8 +1,9 @@
 # 商品数据导出工具
 其他数据也可以导出，思路一致，不过没写完
 
+## 运行环境
+- jdk17+ [adoptOpenjdk](https://adoptium.net/zh-CN/temurin/releases/)（不要求具体厂商，随只是便贴个方便你下载）
 ## 使用
-
 - 下载[unp4k](https://github.com/dolkensp/unp4k)（想用其他解包工具都可以，只要保证解压出来的目录结构一致即可，目前只需要P4K中的xml、json、ini文件，过滤掉其他模型等文件后就会减少不小的体积，unp4k我下面的bat脚本里有过滤，用其他工具的自行过滤）
 - 将[unpak-pu.bat](unpak-pu.bat)**修改后**放入任意文件夹并运行
 - 编辑[source_config.txt](source_config.txt)，配置unpak-pu.bat中配置的Data目录
