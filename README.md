@@ -12,7 +12,7 @@
 - 生成出的Data和jsonfile文件夹里是每种商品的详情和索引文件，供[星际公民商品搜索器](https://wftank.cn/search)以及[wftank-qq机器人](https://github.com/herokillerJ/wftank-qqrobot)使用的数据源
 - logs就是日志，方便排查问题，也可以直接看控制台
 ## 注意
-- 中文翻译依赖Data\Localization\chineses\global.ini，从汉化中拿出来或者超汉化组要
+- 中文翻译依赖P4K数据目录中Localization\chineses\global.ini，从汉化中拿出来或者向汉化组要，没有代码报错，会改可以自己注掉只要英文
 - [system_location_cn.txt](system_location_cn.txt)和[system_location_en.txt](system_location_en.txt)需要手动映射地点名称，否则直接用属性名。global.ini中有的就用@开头引用，没有的就直接打英文或者汉字
 - [shopname_mapping.txt](shopname_mapping.txt)用来映射无法匹配的商店名称
 - [excel_config.txt](excel_config.txt)是配置化提取p4k中数据并生成excel列的文件，目前源码里屏蔽掉了，想用的话看源码
